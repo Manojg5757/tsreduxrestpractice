@@ -24,23 +24,9 @@ posts()
   return (
     <View>
       <Text>Home</Text>
-      <Text onPress={() => nav.navigate("Profile")}>Profile</Text>
-    {
-      mysPosts && mysPosts.length > 0 ? (
-        <FlatList 
-        data={mysPosts}
-        renderItem={({item})=>(
-          
-            <View>
-              <Text>{item.title}</Text>
-              </View>
-          
-        )}
-        keyExtractor={(item)=>item.id.toString()}
-        />
-      ):<Text>no</Text>
-    }
+      <Text>This is second branch called second</Text>
       <Text>Remot repo haha</Text>
+      
     </View>
   );
 };
