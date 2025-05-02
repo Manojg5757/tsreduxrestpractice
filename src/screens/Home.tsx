@@ -40,6 +40,7 @@ posts()
         />
       ):<Text>no</Text>
     }
+      <Text>Remot repo haha</Text>
     </View>
   );
 };
